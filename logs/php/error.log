@@ -39,3 +39,34 @@ These options need to match
 [06-Oct-2025 07:23:31 UTC] PHP Parse error:  syntax error, unexpected token "{" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
 [06-Oct-2025 07:31:21 UTC] PHP Parse error:  syntax error, unexpected token "{" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
 [06-Oct-2025 07:31:30 UTC] PHP Parse error:  syntax error, unexpected token "{" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[12-Oct-2025 14:47:05 UTC] PHP Parse error:  syntax error, unexpected token "{" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[12-Oct-2025 14:55:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "_WP_Editors" not found in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-admin\customize.php(306): do_action('customize_contr...')
+#3 {main}
+  thrown in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[22-Oct-2025 06:26:12 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363

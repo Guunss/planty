@@ -1,0 +1,174 @@
+/*
+Theme Name: oceanwp child
+Description: Starter Child Theme for the oceanwp Theme.
+Author: Gudrun
+Template: oceanwp
+Version: 1.0.0
+Text Domain: oceanwp
+*/
+
+/* modification pour les formulaires */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"]
+{
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 7px;
+    height: 71px;
+    margin-top: 5px;
+}
+
+.wpcf7 textarea
+{
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 7px;
+    height: 237px;
+    margin-top: 5px;
+}
+
+.wpcf7 label
+{
+    color: #000;
+    font-family: "Syne", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.wpcf7 input[type=submit]:hover
+{
+    background: #C02E44;
+}
+.wpcf7 input[type=submit] {
+    margin: auto;
+    display: block;
+    background-color: #E0B9B4;
+    color: #FFF;
+    border-radius: 5px;
+    border-style: none;
+    height: 55px;
+    width: 198px;
+    font-family: "Syne", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+}
+.wpcf7-response-output {
+    color: #000 !important;
+}
+
+.form-commander {
+    font-family: "syne", Sans-serif;
+}
+
+.form-commander h2 {   
+    color: #fff; 
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gouts {
+    display: flex;
+    flex-direction: row;
+    column-gap : 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap : 10px;
+}
+
+.form-commander input[type="number"] {
+    background-color: #FFF;
+    height: 56px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+.form-commander .infos-livraison {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.infos {
+    border-right : solid;
+    width: 90%;
+    padding-right: 30px;
+
+}
+
+.livraison {
+   width: 90%;
+   padding-left: 30px;
+}
+
+.form-commander label {
+    color:#FFF;
+}
+
+header img {
+    margin: 15px;
+    height: 50px;
+}
+
+header {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 25px;
+}
+
+.nav-item a {
+    font-family: "Syne", Sans-serif;
+    font-size: 16px;
+}
+
+.dark {
+    background-color: #DC9F96;
+}
+
+.main-pages {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dark a {
+    color: #FFF;
+    font-weight: 700;
+    padding-left: 61px; 
+    padding-right: 61px;
+}
+
+footer {
+    height: 60px;
+    color: #000;
+    background-color: #FFF;
+    font-family: "Syne", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    margin: auto;
+}
+
