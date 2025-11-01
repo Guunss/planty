@@ -9,8 +9,7 @@ Text Domain: oceanwp
 
 /* modification pour les formulaires */
 .wpcf7 input[type="text"],
-.wpcf7 input[type="email"]
-{
+.wpcf7 input[type="email"] {
     background-color: #fff !important;
     color: #000 !important;
     border-radius: 7px;
@@ -18,8 +17,7 @@ Text Domain: oceanwp
     margin-top: 5px;
 }
 
-.wpcf7 textarea
-{
+.wpcf7 textarea {
     background-color: #fff !important;
     color: #000 !important;
     border-radius: 7px;
@@ -27,19 +25,18 @@ Text Domain: oceanwp
     margin-top: 5px;
 }
 
-.wpcf7 label
-{
+.wpcf7 label {
     color: #000;
     font-family: "Syne", Sans-serif;
     font-size: 20px;
     font-weight: 400;
-    
+
 }
 
-.wpcf7 input[type=submit]:hover
-{
+.wpcf7 input[type=submit]:hover {
     background: #C02E44;
 }
+
 .wpcf7 input[type=submit] {
     margin: auto;
     display: block;
@@ -54,16 +51,18 @@ Text Domain: oceanwp
     font-weight: 400;
     text-transform: none;
 }
+
 .wpcf7-response-output {
     color: #000 !important;
 }
 
+/* style du formulaire commander */
 .form-commander {
     font-family: "syne", Sans-serif;
 }
 
-.form-commander h2 {   
-    color: #fff; 
+.form-commander h2 {
+    color: #fff;
     font-size: 30px;
     font-weight: 700;
 }
@@ -71,7 +70,7 @@ Text Domain: oceanwp
 .gouts {
     display: flex;
     flex-direction: row;
-    column-gap : 30px;
+    column-gap: 30px;
     padding-bottom: 30px;
 }
 
@@ -79,7 +78,7 @@ Text Domain: oceanwp
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap : 10px;
+    row-gap: 10px;
 }
 
 .form-commander input[type="number"] {
@@ -99,21 +98,22 @@ Text Domain: oceanwp
 }
 
 .infos {
-    border-right : solid;
+    border-right: solid;
     width: 90%;
     padding-right: 30px;
 
 }
 
 .livraison {
-   width: 90%;
-   padding-left: 30px;
+    width: 90%;
+    padding-left: 30px;
 }
 
 .form-commander label {
-    color:#FFF;
+    color: #FFF;
 }
 
+/* style du header */
 header img {
     margin: 15px;
     height: 50px;
@@ -153,10 +153,59 @@ nav {
 .dark a {
     color: #FFF;
     font-weight: 700;
-    padding-left: 61px; 
+    padding-left: 61px;
     padding-right: 61px;
 }
 
+/* header for device < 960px */
+@media screen and (max-width:960px) {
+    header img {
+        margin: 0px;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-pages {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .dark a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .form-commander .infos-livraison {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .infos {
+        border-right: none;
+        padding-right: 0px;
+        width: 90%;
+    }
+
+    .livraison {
+        width: 90%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+
+/* style footer */
 footer {
     height: 60px;
     color: #000;
@@ -171,4 +220,3 @@ footer {
 footer nav a {
     margin: auto;
 }
-

@@ -70,3 +70,4 @@ Stack trace:
 [22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
 [22-Oct-2025 06:24:25 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
 [22-Oct-2025 06:26:12 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[01-Nov-2025 14:16:36 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\Gudrun Jans\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
