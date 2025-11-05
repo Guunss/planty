@@ -35,14 +35,14 @@
                 <div class="logo">
                     <a href="http://planty.local">
                         <div class="logo">
-                            <img src="http://planty.local/wp-content/uploads/2025/10/Logo-source.png" />
+                            <img src="http://planty.local/wp-content/uploads/2025/10/Logo-source.png" alt="logo Planty" />
                         </div>
                     </a>
                 </div>
                 <nav>
                     <div class="main-pages">
                         <div class="nav-item">
-                            <a href="/precommande">Nous rencontrer</a>
+                            <a href="/nous-rencontrer">Nous rencontrer</a>
                         </div>
                         <?php if (is_user_logged_in()) { ?>
                             <div class="nav-item">
