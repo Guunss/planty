@@ -33,9 +33,9 @@
 
             <header>
                 <div class="logo">
-                    <a href="http://planty.local">
+                    <a href="/">
                         <div class="logo">
-                            <img src="http://planty.local/wp-content/uploads/2025/10/Logo-source.png" alt="logo Planty" />
+                            <img src="/wp-content/uploads/2025/10/Logo-source.png" alt="logo Planty" />
                         </div>
                     </a>
                 </div>
