@@ -40,19 +40,9 @@
                     </a>
                 </div>
                 <nav>
-                    <div class="main-pages">
-                        <div class="nav-item">
-                            <a href="/nous-rencontrer">Nous rencontrer</a>
-                        </div>
-                        <?php if (is_user_logged_in()) { ?>
-                            <div class="nav-item">
-                                <a href="/wp-admin">Admin</a>
-                            </div>
-                        <?php } ?>
-                    </div>
-                    <div class="nav-item dark">
-                        <a href="/commander">Commander</a>
-                    </div>
+                    <?php wp_nav_menu(array(
+                        'menu' => 'Navigation'
+                    )); ?>
                 </nav>
             </header>
             <!-- custom header fin -->
